@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="./bootstrap-4.3.1-dist/css/bootstrap.min.css">
+    <title>Latitude</title>
+</head>
+<body>
+    <!-- <div class="container"> -->
+    <div class="container-fluid">
+        <div class="row justify-content-between">
+            <div class="col-4">
+                <a href="index.html" style="text-decoration: none;"><h1>Latitude</h1></a>
+            </div>
+            <div class="col-4">
+                <nav class="navbar navbar-expand-lg navbar-light bg-light float-right">
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav mr-auto">
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    Plots
+                                </a>
+                                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <a class="dropdown-item" href="temperature.html">Temperature</a>
+                                    <div class="dropdown-divider"></div>
+                                    <a class="dropdown-item" href="humidity.html">Humidity</a>
+                                    <div class="dropdown-divider"></div>
+                                    <a class="dropdown-item" href="cloudiness.html">Cloudiness</a>
+                                    <div class="dropdown-divider"></div>
+                                    <a class="dropdown-item" href="windspeed.html">Wind Speed</a>
+                                </div>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="comparison.html">Comparison</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="data.html">Data</a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+        </div>
+        <br>
+        <div class="row justify-content-between">
+            <div class="col-8">
+                <h2>Summary: Latitude vs X</h2>
+                <hr>
+                <img src="./Images/LatitudevsTemperature.png" alt="Latitude vs Temperature" width="300" height="300" style="float: left; margin-right: 20px;">
+
+                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt. Duis leo. Sed fringilla mauris sit amet nibh. Donec sodales sagittis magna. Sed consequat, leo eget bibendum sodales, augue velit cursus nunc</p>
+            </div>
+            <div class="col-4">
+                <h3>Visualizations</h3>
+                <hr>
+                <div class="row justify-content-around">
+                    <a href="temperature.html"><img src="./Images/LatitudevsTemperature.png" class="rounded float-left" alt="Latitude vs Temperature" width="200" height="200"></a>
+                    <a href="humidity.html"><img src="./Images/LatitudevsHumidity.png" class="rounded float-right" alt="Latitude vs Humidity" width="200" height="200"></a>
+                </div>
+                <div class="row justify-content-around">
+                    <a href="cloudiness.html"><img src="./Images/LatitudevsCloudiness.png" class="rounded float-left" alt="Latitude vs Cloudiness" width="200" height="200"></a>
+                    <a href="windspeed.html"><img src="./Images/LatitudevsWindSpeed.png" class="rounded float-right" alt="Latitude vs Wind Speed" width="200" height="200"></a>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
+</html>
